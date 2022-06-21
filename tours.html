@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Grids</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
@@ -36,19 +38,19 @@
                 <a href="./index.html">The Rolling Rocks</a>
         </div>
         <div class="main">
-            <h2>PROXIMAS FECHAS</h2>
+            <h1>PROXIMAS FECHAS</h1>
             <!-- table: Tabla -->
             <!-- cellpadding: Espacio con el borde/ cellspacing: Espacio entre celdas -->
-            <table cellpadding="10">
+            <table class="table">
                 <!-- tr: Table row: Fila de tabla -->
                 <tr>
                     <!-- th: Table header: Títulos de tabla -->
-                    <th>Julio '22</th>
-                    <th>Lugar</th>
+                    <th scope="col" >Julio '22</th>
+                    <th scope="col" >Lugar</th>
                 </tr>
                 <tr>
                     <!-- td: Table data: Datos de tabla -->
-                    <td>1</td>
+                    <td >1</td>
                     <td>Estadio Wanda Metropolitano MADRID, ESPAÑA</td>
                 </tr>
                 <tr>
@@ -76,7 +78,7 @@
                     <td>American Express Presents BST Hyde Park LONDRES, INGLATERRA</td>
                 </tr>
     
-                
+    
             </table>
         </div>
         <div class="footer">
@@ -97,9 +99,13 @@
                 </li>
             </ul>
             <p class="copyright">© Rolling Rocks 2022. All rights reserved.</p>
-    
+
         </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
